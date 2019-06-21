@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Practical4</string>
+    <string name="action_favorite">favorite</string>
+    <string name="action_settings">settings</string>
+    <string name="title_activity_child">My Child Activity</string>
+    <string name="action_search">search</string>
+    <string name="main_activity_actions">Main Activity Actions</string>
+    <string name="share">share</string>
+    <string name="dialog_message">Dialog Msg</string>
+    <string name="dialog_title">Dialog Title</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_color">Pick a color</string>
 </resources>
