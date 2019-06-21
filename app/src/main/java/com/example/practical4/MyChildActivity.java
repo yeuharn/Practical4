@@ -1,9 +1,11 @@
 package com.example.practical4;
 
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 public class MyChildActivity extends AppCompatActivity {
 
@@ -23,5 +25,8 @@ public class MyChildActivity extends AppCompatActivity {
         ab.setDisplayHomeAsUpEnabled(true);
     }
 
-
+    public void showDatePickerDialog(View view) {
+        DialogFragment newFragment = new MainActivity.DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(), "datePicker");
+    }
 }

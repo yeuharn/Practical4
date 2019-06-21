@@ -10,5 +10,10 @@
     <string name="dialog_title">Dialog Title</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="pick_color">Pick a color</string>
+    <string name="password">Enter password</string>
+    <string name="username">Enter username</string>
+    <string name="signin">Sign in</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="textview_a">TextView A</string>
+    <string name="textview_b">TextView B</string>
 </resources>
